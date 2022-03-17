@@ -549,3 +549,44 @@ h2{
         }
     }
 }
+
+@media (max-width: 500px){
+    *{
+        
+    }
+    .merchandise{
+
+        &>p{
+            font-size: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: thin gray solid;
+        }
+        ul{
+            
+            li{
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                img{ 
+                    width: 100%;
+                    order: 1;
+                }
+
+                div{
+                    width: 100%;
+
+                    h4{
+                        margin: 0;
+                        // font-weight: 500;
+                    }
+                    span{
+                        font-weight: 600;
+                        margin: 1rem 0;
+                        color: rgb(170, 67, 60);
+                    }
+                }
+            }
+        }
+    }
+}

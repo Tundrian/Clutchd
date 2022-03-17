@@ -532,5 +532,33 @@ h2 {
     border-radius: 50rem;
   }
 }
+@media (max-width: 500px) {
+  .merchandise > p {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: thin gray solid;
+  }
+  .merchandise ul li {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .merchandise ul li img {
+    width: 100%;
+    order: 1;
+  }
+  .merchandise ul li div {
+    width: 100%;
+  }
+  .merchandise ul li div h4 {
+    margin: 0;
+  }
+  .merchandise ul li div span {
+    font-weight: 600;
+    margin: 1rem 0;
+    color: #aa433c;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
