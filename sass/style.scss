@@ -37,6 +37,7 @@ nav{
     div{
         display: flex;
         align-items: center;
+
         img{
             height: 8rem;
             margin-right: 1rem;
@@ -62,6 +63,11 @@ nav{
             border-radius: 1rem;
             // border: thin rgba(128, 128, 128, 0.438) solid;
             background-color: rgba(26, 25, 25, 0.733);
+
+            a{
+                color: white;
+                text-transform: uppercase;
+            }
             
             &:hover{
                 
@@ -79,6 +85,7 @@ nav{
 .navMobile{
     display: none;
 }
+
 
 // Hero
 .heroWrapper{
@@ -148,6 +155,7 @@ nav{
     border-bottom: thin rgba(175, 175, 175, 0.705) solid;
     padding-bottom: 2rem;
     margin: 0 1rem;
+    
     p{
         text-align: center;
         font-size: 2rem;
@@ -193,10 +201,11 @@ nav{
         li{
             display: flex;
             justify-content: flex-start;
-            width: 90%;
+            width: 40%;
             margin-bottom: 2rem;
             padding-bottom: 2rem;
             border-bottom: thin gray solid;
+            
 
             div{
                 // padding-left: 10%;
@@ -208,7 +217,7 @@ nav{
                 justify-content: center;
                 align-items: center;
                 flex-flow: column wrap;
-                padding: 0 4rem;
+                padding: 0 0;
                 
                 h4{
                     font-size: 2rem;
@@ -222,10 +231,11 @@ nav{
             }
 
             img {
-                width: 50%;
+                width: 100%;
                 background-size: cover;
                 border-radius: 2rem;
                 box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+                background-size:contain;
             }
         }
     }
@@ -370,6 +380,7 @@ nav{
     padding-bottom: 10rem;
     p{
         margin-bottom: 4rem;
+        padding: 0 2rem;
     }
     a{
         border-radius: 1rem;
@@ -379,6 +390,15 @@ nav{
         color: white;
         font-weight: 400;
         text-transform: uppercase;
+    }
+
+    .contactButtons{
+        display: flex;
+        justify-content: space-around;
+        max-width: 700px;
+        align-items: center;
+        flex-flow: row wrap;
+        margin: 0 auto;
     }
 
     a:first-of-type{
@@ -411,7 +431,7 @@ h2{
             li{
                 display: flex;
                 justify-content: flex-start;
-                width: 33%;
+                width: 40%;
             }
         }
     }
@@ -464,7 +484,68 @@ h2{
         }
     }
 
+    .merchandise{
+        
+        ul{
+            li{
+                display: flex;
+                justify-content: flex-start;
+                width: 75%;
+
+                img{
+                    width: 50%;
+                    max-height: 200px;
+                    max-width: 200px;
+                }
+            }
+        }
+    }
     .navDesktop{
         display: none;
+    }
+
+    .gallery{
+    
+        ul{
+    
+            li{
+                width: 50%;
+            }
+        }
+    }
+
+    .events{
+        ul{
+            li{
+                flex-flow: row wrap;
+                &>*{
+                    width: 100%;
+                }
+
+                iframe{
+                    border-radius: 2rem;
+                    margin: 1rem 2rem;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                }
+            }
+        }
+    }
+
+    .about{
+        ul{
+            li{
+                
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+                section{
+                    width: 100%;
+                    img{
+                        max-width: 200px;
+                        border-radius: 50rem;
+                    }
+                }
+            }
+        }
     }
 }
