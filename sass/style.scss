@@ -368,8 +368,19 @@ nav{
 .contact{
     text-align: center;
     padding-bottom: 10rem;
+    
+
     p{
         margin-bottom: 4rem;
+        padding: 0 2rem;
+    }
+    .contactButtons{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-flow: row wrap;
+        max-width: 900px;
+        margin: 0 auto;
     }
     a{
         border-radius: 1rem;
@@ -427,6 +438,9 @@ h2{
             }
         }
     }
+    nav{
+        padding: 1rem 0;
+    }
     .navMobile{
         display: block;
         position: fixed;
@@ -454,7 +468,7 @@ h2{
         
         ul{
             display: none;
-
+            background-color: rgba(0,0,0,.9);
             li{
                 margin:1rem 0;
                 border: none;
