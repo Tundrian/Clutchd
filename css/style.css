@@ -399,15 +399,6 @@ nav ul li:hover {
 }
 .contact p {
   margin-bottom: 4rem;
-  padding: 0 2rem;
-}
-.contact .contactButtons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-  max-width: 900px;
-  margin: 0 auto;
 }
 .contact a {
   border-radius: 1rem;
@@ -442,16 +433,12 @@ h2 {
     width: 33%;
   }
 }
-@media all and (min-width: 0px) {
+@media (max-width: 950px) {
   .heroWrapper main {
     margin-top: 8rem;
   }
   .heroWrapper main h1 {
     padding-top: 25vh;
-  }
-
-  nav {
-    padding: 1rem 0;
   }
 
   .navMobile {
@@ -468,7 +455,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-    padding: 0 0rem;
+    padding: 0 3rem;
   }
   .navMobile div i {
     color: white;
@@ -478,7 +465,6 @@ h2 {
   }
   .navMobile ul {
     display: none;
-    background-color: rgba(0, 0, 0, 0.9);
   }
   .navMobile ul li {
     margin: 1rem 0;
