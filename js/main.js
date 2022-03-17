@@ -7,8 +7,6 @@ let modalImg = document.getElementById("img01");
 let captionText = document.getElementById("caption");
 let span = document.getElementsByClassName("close")[0];
 
-
-
 // functions
 const toggleMobileMenu = () => {
     const navMobileMenu = document.querySelector(".navMobileMenu")
