@@ -368,19 +368,8 @@ nav{
 .contact{
     text-align: center;
     padding-bottom: 10rem;
-    
-
     p{
         margin-bottom: 4rem;
-        padding: 0 2rem;
-    }
-    .contactButtons{
-        display: flex;
-        justify-content:space-around;
-        align-items: center;
-        flex-flow: row wrap;
-        max-width: 900px;
-        margin: 0 auto;
     }
     a{
         border-radius: 1rem;
@@ -428,7 +417,7 @@ h2{
     }
 }
 
-@media all and (min-width: 0px){
+@media (max-width: 950px){
     .heroWrapper{
         main{
             margin-top: 8rem;
@@ -436,9 +425,6 @@ h2{
                 padding-top: 25vh;
             }
         }
-    }
-    nav{
-        padding: 1rem 0;
     }
     .navMobile{
         display: block;
@@ -454,7 +440,7 @@ h2{
             justify-content: space-between;
             align-items: center;
             flex-flow: row wrap;
-            padding: 0 0rem;
+            padding: 0 3rem;
 
             i{
                 color: white;
@@ -467,7 +453,7 @@ h2{
         
         ul{
             display: none;
-            background-color: rgba(0,0,0,.9);
+
             li{
                 margin:1rem 0;
                 border: none;
