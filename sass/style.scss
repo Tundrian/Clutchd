@@ -417,7 +417,7 @@ h2{
     }
 }
 
-@media (max-width: 950px){
+@media all and (min-width: 0px){
     .heroWrapper{
         main{
             margin-top: 8rem;
@@ -441,7 +441,7 @@ h2{
             justify-content: space-between;
             align-items: center;
             flex-flow: row wrap;
-            padding: 0 3rem;
+            padding: 0 0rem;
 
             i{
                 color: white;
