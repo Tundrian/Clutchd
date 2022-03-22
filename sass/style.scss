@@ -107,6 +107,7 @@ ul {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -267,6 +268,7 @@ nav ul li:hover {
   align-items: center;
   flex-flow: column wrap;
   padding: 0 0;
+  width: 100%;
 }
 .merchandise ul li div h4 {
   font-size: 2rem;
